@@ -6,7 +6,7 @@
 //      void config();
 // }
 
-// class B implements A { // if we do not defined both the methods we need to make this class abstract
+// class B implements A {
 //     public void show() {
 //         System.out.println("in B show");
 //     }

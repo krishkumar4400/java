@@ -73,15 +73,3 @@ public class Lecture_15 {
         c.calculate(3);
     }
 }     
-
-        
-
-           
-
-              
-
-        
-
-           
-
-         
