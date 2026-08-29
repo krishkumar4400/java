@@ -1,13 +1,18 @@
+/**
+ * Runnables
+ */
+
+
 class MyThread implements Runnable {
     public void run() {
         System.out.println("Thread running using runnable");
     }
 }
 
-public class Runnables {
+public class Lecture_9 {
     public static void main(String[] args) {
-        MyThread m = new MyThread();
-        Thread t1 = new Thread(m);
-        t1.start();
+        MyThread tMyThread = new MyThread();
+        Thread t1Thread = new Thread(tMyThread);
+        t1Thread.start();
     }
 }

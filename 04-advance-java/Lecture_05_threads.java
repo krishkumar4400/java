@@ -1,3 +1,8 @@
+/**
+ * Threads
+ */
+
+
 // class A {
 //     public void show() {
 //         for(int i = 0; i < 10; i++) {
@@ -22,7 +27,6 @@
 //     }
 // }
 
-
 // class A extends Thread {
 //     public void run() {
 //         for(int i = 0; i < 100; i++) {
@@ -47,7 +51,6 @@
 //     }
 // }
 
-
 // class A extends Thread {
 //     public void run() {
 //         for (int i = 0; i < 100; i++) {
@@ -74,7 +77,7 @@
 //     }
 // }
 
-// public class Threads {
+// public class Lecture_05_threads {
 //     public static void main(String[] args) {
 //         A obj1 = new A();
 //         B obj2 = new B();
@@ -87,7 +90,6 @@
 //         obj2.start();
 //     }
 // }
-
 
 // Another way to implement Thread - using Runnable
 class A implements Runnable {
@@ -116,8 +118,10 @@ class B implements Runnable {
     }
 }
 
-public class Threads {
-    public static void main(String[] args) {
+
+
+public class Lecture_05_threads {
+    
         A obj1 = new A();
         B obj2 = new B();
 
@@ -125,5 +129,5 @@ public class Threads {
         Thread t2 = new Thread(obj2);
         t1.start();
         t2.start();
-    }
+    
 }

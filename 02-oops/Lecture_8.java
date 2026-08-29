@@ -76,6 +76,19 @@ interface Z {
     void run();
 }
 
+// Types
+// 1. funnctional interface:
+@FunctionalInterface
+interface A {
+    void show();
+}
+
+class B implements A {
+    public void show() {
+        System.out.println("in A show");
+    }
+}
+
 class B1 implements A1, X, Y {
     public void show() {
         System.out.println("in B show");
